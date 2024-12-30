@@ -136,7 +136,7 @@ const deleteBookHandler = (request, h) => {
     if(index === -1){
         return h.response({
             status: 'fail',
-            message: 'Buku gagal disimpan. Id tidak ditemukan',
+            message: 'Buku gagal dihapus. Id tidak ditemukan',
         }).code(404);
     }
 
